@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Settle - Simplifying shared expenses
 
-## Getting Started
+**Settle** is a modern, minimalistic expense-sharing application designed to make managing group expenses simple, transparent, and hassle-free. Whether you're sharing bills with friends, roommates, or colleagues, Settle helps you track, split, and settle expenses effortlessly.
 
-First, run the development server:
+### Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **User Authentication**: Secure sign-up and login with [Clerk](https://clerk.com/).  
+- **Expense Tracking**: Add, edit, and delete expenses within groups.  
+- **Group Management**: Create and manage groups for friends, roommates, or teams.  
+- **Automatic Calculations**: Instantly calculates who owes whom.  
+- **Settle Up**: Mark payments as settled quickly and easily.  
+- **Notifications & Updates**: Real-time updates using [Convex](https://convex.dev/).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Frontend**: Next.js, TailwindCSS, ShadCN UI  
+- **Backend / Database**: Convex (serverless backend + real-time database)  
+- **Authentication**: Clerk, JWT  
